@@ -31,3 +31,23 @@ add_executable(support chapter9_2_4/support.cpp chapter9_2_4/external.cpp)
 add_executable(twofile1 chapter9_2_5/twofile1.cpp
         chapter9_2_5/twofile2.cpp)
 add_executable(static chapter9_2_6/static.cpp)
+add_executable(namesp chapter9_3/namesp.h
+        chapter9_3/namesp.cpp
+        chapter9_3/usenmsp.cpp)
+add_executable(stock00 chapter10_2/stock00.h
+        chapter10_2/stock00.cpp
+        chapter10_2/usestock00.cpp)
+add_executable(stock10 chapter10_3/stock10.h
+        chapter10_3/stock10.cpp
+        chapter10_3/usestock10.cpp)
+add_executable(stack chapter10_7/Stack.h
+        chapter10_7/Stack.cpp
+        chapter10_7/stacker.cpp)
+add_executable(mytime chapter11_2/mytime.h
+        chapter11_2/mytime.cpp
+        chapter11_2/usetime.cpp)
+add_executable(mytime3 chapter11_3/mytime3.h
+        chapter11_3/mytime3.cpp
+        chapter11_3/usemytime3.cpp)
+add_executable(vector chapter11_5/vector.cpp chapter11_5/vector.h
+        chapter11_5/randwalk.cpp)
