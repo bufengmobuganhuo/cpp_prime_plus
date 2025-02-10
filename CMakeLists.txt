@@ -51,3 +51,7 @@ add_executable(mytime3 chapter11_3/mytime3.h
         chapter11_3/usemytime3.cpp)
 add_executable(vector chapter11_5/vector.cpp chapter11_5/vector.h
         chapter11_5/randwalk.cpp)
+add_executable(string1 chapter12_2/string1.cpp chapter12_2/string1.h)
+add_executable(placenew chapter12_5/placenew.cpp)
+add_executable(Queue chapter12_6/Queue.cpp chapter12_6/Queue.h)
+add_executable(tabtenn1 chapter13_1/tabtenn1.cpp chapter13_1/tabtenn1.h)
